@@ -1,0 +1,261 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+h1,h2{
+    text-align: center;
+}
+.title {
+    background-color: rgb(236, 134, 207);
+    text-align: center;
+}
+
+body {
+    background-color: hsl(180, 6%, 90%);
+}
+p {
+    background-color: hsl(170, 72%, 71%);
+}
+h2{
+    color: #d21212;
+}
+ul,ol{
+    color: #62f857;
+}
+
+div p {
+    background-color: hsl(104, 66%, 73%);
+}
+
+div>p {
+    background-color: hsl(27, 100%, 50%);
+}
+
+p~ul {
+    background: hwb(321 51% 6%);
+}
+a:hover {
+    background-color: rgb(67, 209, 193);
+}
+
+p::first-line {
+    background-color: hsl(55, 88%, 55%);
+}
+
+a:link {
+    background-color: rgb(200, 200, 6);
+}
+
+body:fullscreen {
+    background-color: hsl(135, 100%, 50%);
+}
+
+/*-------------------*/
+div {
+    width: 70px;
+    height: 300px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+div {
+    display: flex;
+    align-items: center;
+}
+
+div {
+    animation: mymove 5s infinite;
+}
+
+body {
+    background-image: url("paper.gif");
+}
+
+body {
+    background-image: url('w3css.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+    border: 5px solid red;
+}
+
+h2 {
+    border: 4px dotted blue;
+}
+
+div {
+    border-bottom-color: coral;
+}
+
+h1 {
+    border-left: 5px solid red;
+}
+
+div {
+    border-top-style: dotted;
+}
+
+h1 {
+    color: #ff0073;
+}
+
+div {
+    column-count: 3;
+}
+
+a::after {
+    content: " (" attr(href) ")";
+}
+
+.alias {
+    cursor: alias;
+}
+
+p.rtl {
+    direction: rtl;
+}
+p.a {
+    font: 15px Arial, sans-serif;
+}
+
+p.b {
+    font: italic small-caps bold 12px/30px Georgia, serif;
+}
+
+.grid-container {
+    display: grid;
+    grid: 150px / auto auto auto;
+}
+
+ul {
+    list-style-type: square;
+}
+
+p {
+    margin: 35px;
+}
+
+h2 {
+    outline: 1px dotted green;
+}
+
+div {
+    outline-color: coral;
+}
+
+.scroll{
+    overflow: scroll;
+}
+
+p {
+    padding: 35px;
+}
+.firt {
+    border: 1px solid #000;
+    background-color: yellow;
+    width: 40%;
+    padding: 30px;
+    font-size: 25px;
+
+}
+
+.fist a + div {
+    display: none;
+}
+
+.fist	a:hover + div {
+    display: block;
+    color: #000;
+    transform: rotate(180deg);
+    margin-top: -150px;
+}
+.heading {
+    text-align: center;
+    color: red;
+}
+
+.rotate {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.rotate:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
+
+.img1:hover {
+    opacity: 0.4;
+}
+
+.img2:hover {
+    filter: blur(4px);
+}
+
+.img3:hover {
+    filter: grayscale(100%);
+}
+
+.effect {
+
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.polarize {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.text {
+    padding: 15px;
+}
+
+div.gallery {
+    margin: 0px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 24%;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+.gal {
+    width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+    div.gallery {
+        width: 24%;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    div.gallery {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    div.gallery {
+        width: 96%;
+    }
+}
+article{
+    color: rgb(234, 34, 34);
+}
